@@ -57,13 +57,14 @@ deployed to production.** Before that the URL returns a 404, the first run would
 
 For each monitor the workflow keeps at most one open issue per kind, labelled `incident`, `monitor:<id>` and `down` or `degraded`:
 
-- Goes down or degraded: an issue is opened ("🔴 Web app is down" / "🟠 API is degraded") with the URL, time in UTC, HTTP code,
+- Goes down or degraded: an issue is opened ("🔴 Web app is down"; a degraded issue reads "🟠 <name> is degraded") with the URL, time in UTC, HTTP code,
   error, response time and a link to the workflow run.
 - Still down: a comment after the first hour, then every 4 hours, then once a day (measured from when the incident opened).
 - Flapping: if a monitor goes down or degraded again within 30 minutes of its incident closing, that issue is **reopened** with a
   comment instead of opening a new one. Only issues the monitor closed itself are reopened (the last comment is its "Recovered after"
   comment and no person closed it); an issue a human closed is left alone and a new one is opened. The webhook always posts the alert
   after a recovery notice, and only throttles a repeated alert within 30 minutes.
+- Degraded alerts only appear once the planned `api-deep` monitor (below) is added: none of the current four monitors sets `degradedJsonStatusIn`, so today a monitor is either up or down.
 - Recovers: a "Recovered after ..." comment and the issue is closed.
 - TLS certificate under 14 days: one `tls` issue per host ("🔒 TLS certificate for host expires in N days"), closed once renewed.
 
@@ -90,7 +91,7 @@ Every run starts from the last **committed** state, so a sample that is not comm
 a run commits only when:
 
 - any monitor changed state, or an incident issue was opened, commented or closed, or
-- it is the hourly checkpoint (UTC minute under 5, or the last commit is more than 57 minutes old), or
+- it is the hourly checkpoint: (UTC minute < 5 AND the last commit is at least 30 minutes old) OR the last commit is at least 57 minutes old, or
 - `data/status.json` has no `generatedAt` yet (the initial empty state shipped in this repo).
 
 `check.mjs` signals this by writing the git-ignored flag file `data/.commit`; the workflow commits `data/` and
@@ -131,6 +132,7 @@ Nothing here has been done yet: this directory is a local-only git repo with a s
       `contents: write` and `issues: write`, but an org/repo default of read-only can override it). Enable workflows in the Actions tab.
 - [ ] Run **check** once with *Run workflow* to confirm it, then it runs on its own every 5 minutes.
 - [ ] Watch the repo (Custom, Issues) and install the GitHub mobile app for push alerts.
+- [ ] Verify `thehivez.com` as a GitHub Pages domain at the organisation level (Shining-Technologies → Settings → Pages → Add a domain, via a DNS TXT record). This prevents anyone else claiming `status.thehivez.com` (subdomain takeover) if the Pages site is ever removed.
 - [ ] Optional: add the `ALERT_WEBHOOK_URL` repository secret (Slack or Discord webhook).
 - [ ] **Check presence-space's IP blocker / rate limiter** (`/api/security/*` IP allow/deny, request rate limits) so it does not
       ban GitHub Actions runner IPs. The monitor hits `/api/health`, `/`, and `/rtc/validate` from shared Azure IPs every
