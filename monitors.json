@@ -1,0 +1,33 @@
+[
+  {
+    "id": "app",
+    "name": "Web app",
+    "group": "App",
+    "url": "https://app.thehivez.com/",
+    "expect": { "status": [200] },
+    "timeoutMs": 15000
+  },
+  {
+    "id": "api",
+    "name": "API",
+    "group": "App",
+    "url": "https://app.thehivez.com/api/health",
+    "expect": { "status": [200], "jsonStatusIn": ["ok"] },
+    "timeoutMs": 15000
+  },
+  {
+    "id": "livekit",
+    "name": "Voice & video (LiveKit signaling)",
+    "group": "Calls",
+    "url": "https://app.thehivez.com/rtc/validate",
+    "expect": { "status": [401], "bodyIncludes": "no permissions" },
+    "timeoutMs": 15000
+  },
+  {
+    "id": "website",
+    "name": "Website",
+    "url": "https://thehivez.com/",
+    "expect": { "status": [200] },
+    "timeoutMs": 15000
+  }
+]
