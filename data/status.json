@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T22:04:11.235Z",
+  "generatedAt": "2026-10-24T00:29:55.947Z",
   "repo": "Shining-Technologies/the-hivez-status",
   "monitors": [
     {
@@ -9,15 +9,14 @@
       "url": "https://app.thehivez.com/",
       "state": "up",
       "since": "2026-10-22T10:21:34.915Z",
-      "lastCheck": "2026-10-23T22:04:07.274Z",
-      "lastMs": 822,
+      "lastCheck": "2026-10-24T00:29:51.809Z",
+      "lastMs": 752,
       "lastHttp": 200,
       "tlsDaysLeft": 72,
       "uptime24h": 100,
       "uptime7d": 92.827,
-      "uptime90d": 95.425,
+      "uptime90d": 95.481,
       "daily": [
-        { "date": "2026-07-26", "up": null },
         { "date": "2026-07-27", "up": null },
         { "date": "2026-07-28", "up": null },
         { "date": "2026-07-29", "up": null },
@@ -106,7 +105,8 @@
         { "date": "2026-10-20", "up": 65.679 },
         { "date": "2026-10-21", "up": 100 },
         { "date": "2026-10-22", "up": 82.713 },
-        { "date": "2026-10-23", "up": 100 }
+        { "date": "2026-10-23", "up": 100 },
+        { "date": "2026-10-24", "up": 100 }
       ]
     },
     {
@@ -116,15 +116,14 @@
       "url": "https://app.thehivez.com/api/health",
       "state": "up",
       "since": "2026-10-22T10:21:34.915Z",
-      "lastCheck": "2026-10-23T22:04:07.274Z",
-      "lastMs": 780,
+      "lastCheck": "2026-10-24T00:29:51.809Z",
+      "lastMs": 724,
       "lastHttp": 200,
       "tlsDaysLeft": 72,
       "uptime24h": 100,
       "uptime7d": 92.827,
-      "uptime90d": 95.425,
+      "uptime90d": 95.481,
       "daily": [
-        { "date": "2026-07-26", "up": null },
         { "date": "2026-07-27", "up": null },
         { "date": "2026-07-28", "up": null },
         { "date": "2026-07-29", "up": null },
@@ -213,7 +212,8 @@
         { "date": "2026-10-20", "up": 65.679 },
         { "date": "2026-10-21", "up": 100 },
         { "date": "2026-10-22", "up": 82.713 },
-        { "date": "2026-10-23", "up": 100 }
+        { "date": "2026-10-23", "up": 100 },
+        { "date": "2026-10-24", "up": 100 }
       ]
     },
     {
@@ -223,15 +223,14 @@
       "url": "https://app.thehivez.com/rtc/validate",
       "state": "up",
       "since": "2026-10-22T10:21:34.915Z",
-      "lastCheck": "2026-10-23T22:04:07.274Z",
-      "lastMs": 784,
+      "lastCheck": "2026-10-24T00:29:51.809Z",
+      "lastMs": 737,
       "lastHttp": 401,
       "tlsDaysLeft": 72,
       "uptime24h": 100,
       "uptime7d": 92.827,
-      "uptime90d": 95.425,
+      "uptime90d": 95.481,
       "daily": [
-        { "date": "2026-07-26", "up": null },
         { "date": "2026-07-27", "up": null },
         { "date": "2026-07-28", "up": null },
         { "date": "2026-07-29", "up": null },
@@ -320,7 +319,8 @@
         { "date": "2026-10-20", "up": 65.679 },
         { "date": "2026-10-21", "up": 100 },
         { "date": "2026-10-22", "up": 82.713 },
-        { "date": "2026-10-23", "up": 100 }
+        { "date": "2026-10-23", "up": 100 },
+        { "date": "2026-10-24", "up": 100 }
       ]
     },
     {
@@ -329,15 +329,14 @@
       "url": "https://thehivez.com/",
       "state": "up",
       "since": "2026-10-22T10:21:34.915Z",
-      "lastCheck": "2026-10-23T22:04:07.274Z",
-      "lastMs": 1481,
+      "lastCheck": "2026-10-24T00:29:51.809Z",
+      "lastMs": 1401,
       "lastHttp": 200,
       "tlsDaysLeft": 72,
       "uptime24h": 100,
       "uptime7d": 92.827,
-      "uptime90d": 95.425,
+      "uptime90d": 95.481,
       "daily": [
-        { "date": "2026-07-26", "up": null },
         { "date": "2026-07-27", "up": null },
         { "date": "2026-07-28", "up": null },
         { "date": "2026-07-29", "up": null },
@@ -426,7 +425,8 @@
         { "date": "2026-10-20", "up": 65.679 },
         { "date": "2026-10-21", "up": 100 },
         { "date": "2026-10-22", "up": 82.713 },
-        { "date": "2026-10-23", "up": 100 }
+        { "date": "2026-10-23", "up": 100 },
+        { "date": "2026-10-24", "up": 100 }
       ]
     }
   ]
