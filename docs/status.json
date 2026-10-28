@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T22:22:45.898Z",
+  "generatedAt": "2026-10-28T01:28:53.255Z",
   "repo": "Shining-Technologies/the-hivez-status",
   "monitors": [
     {
@@ -9,15 +9,14 @@
       "url": "https://app.thehivez.com/",
       "state": "up",
       "since": "2026-10-27T01:38:45.330Z",
-      "lastCheck": "2026-10-27T22:22:41.600Z",
-      "lastMs": 830,
+      "lastCheck": "2026-10-28T01:28:48.911Z",
+      "lastMs": 678,
       "lastHttp": 200,
       "tlsDaysLeft": 68,
-      "uptime24h": 81.439,
-      "uptime7d": 93.615,
-      "uptime90d": 94.84,
+      "uptime24h": 99.457,
+      "uptime7d": 93.61,
+      "uptime90d": 94.897,
       "daily": [
-        { "date": "2026-07-30", "up": null },
         { "date": "2026-07-31", "up": null },
         { "date": "2026-08-01", "up": null },
         { "date": "2026-08-02", "up": null },
@@ -106,7 +105,8 @@
         { "date": "2026-10-24", "up": 97.37 },
         { "date": "2026-10-25", "up": 92.564 },
         { "date": "2026-10-26", "up": 92.183 },
-        { "date": "2026-10-27", "up": 88.012 }
+        { "date": "2026-10-27", "up": 89.22 },
+        { "date": "2026-10-28", "up": 100 }
       ]
     },
     {
@@ -116,15 +116,14 @@
       "url": "https://app.thehivez.com/api/health",
       "state": "up",
       "since": "2026-10-27T01:38:45.330Z",
-      "lastCheck": "2026-10-27T22:22:41.600Z",
-      "lastMs": 788,
+      "lastCheck": "2026-10-28T01:28:48.911Z",
+      "lastMs": 639,
       "lastHttp": 200,
       "tlsDaysLeft": 68,
-      "uptime24h": 81.439,
-      "uptime7d": 93.615,
-      "uptime90d": 94.84,
+      "uptime24h": 99.457,
+      "uptime7d": 93.61,
+      "uptime90d": 94.897,
       "daily": [
-        { "date": "2026-07-30", "up": null },
         { "date": "2026-07-31", "up": null },
         { "date": "2026-08-01", "up": null },
         { "date": "2026-08-02", "up": null },
@@ -213,7 +212,8 @@
         { "date": "2026-10-24", "up": 97.37 },
         { "date": "2026-10-25", "up": 92.564 },
         { "date": "2026-10-26", "up": 92.183 },
-        { "date": "2026-10-27", "up": 88.012 }
+        { "date": "2026-10-27", "up": 89.22 },
+        { "date": "2026-10-28", "up": 100 }
       ]
     },
     {
@@ -223,15 +223,14 @@
       "url": "https://app.thehivez.com/rtc/validate",
       "state": "up",
       "since": "2026-10-27T01:38:45.330Z",
-      "lastCheck": "2026-10-27T22:22:41.600Z",
-      "lastMs": 791,
+      "lastCheck": "2026-10-28T01:28:48.911Z",
+      "lastMs": 698,
       "lastHttp": 401,
       "tlsDaysLeft": 68,
-      "uptime24h": 81.439,
-      "uptime7d": 93.615,
-      "uptime90d": 94.84,
+      "uptime24h": 99.457,
+      "uptime7d": 93.61,
+      "uptime90d": 94.897,
       "daily": [
-        { "date": "2026-07-30", "up": null },
         { "date": "2026-07-31", "up": null },
         { "date": "2026-08-01", "up": null },
         { "date": "2026-08-02", "up": null },
@@ -320,7 +319,8 @@
         { "date": "2026-10-24", "up": 97.37 },
         { "date": "2026-10-25", "up": 92.564 },
         { "date": "2026-10-26", "up": 92.183 },
-        { "date": "2026-10-27", "up": 88.012 }
+        { "date": "2026-10-27", "up": 89.22 },
+        { "date": "2026-10-28", "up": 100 }
       ]
     },
     {
@@ -329,15 +329,14 @@
       "url": "https://thehivez.com/",
       "state": "up",
       "since": "2026-10-27T01:38:45.330Z",
-      "lastCheck": "2026-10-27T22:22:41.600Z",
-      "lastMs": 1511,
+      "lastCheck": "2026-10-28T01:28:48.911Z",
+      "lastMs": 1252,
       "lastHttp": 200,
       "tlsDaysLeft": 68,
-      "uptime24h": 81.439,
-      "uptime7d": 93.615,
-      "uptime90d": 94.84,
+      "uptime24h": 99.457,
+      "uptime7d": 93.61,
+      "uptime90d": 94.897,
       "daily": [
-        { "date": "2026-07-30", "up": null },
         { "date": "2026-07-31", "up": null },
         { "date": "2026-08-01", "up": null },
         { "date": "2026-08-02", "up": null },
@@ -426,7 +425,8 @@
         { "date": "2026-10-24", "up": 97.37 },
         { "date": "2026-10-25", "up": 92.564 },
         { "date": "2026-10-26", "up": 92.183 },
-        { "date": "2026-10-27", "up": 88.012 }
+        { "date": "2026-10-27", "up": 89.22 },
+        { "date": "2026-10-28", "up": 100 }
       ]
     }
   ]
