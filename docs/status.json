@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T23:19:01.214Z",
+  "generatedAt": "2026-10-29T02:30:45.032Z",
   "repo": "Shining-Technologies/the-hivez-status",
   "monitors": [
     {
@@ -7,17 +7,17 @@
       "name": "Web app",
       "group": "App",
       "url": "https://app.thehivez.com/",
-      "state": "up",
-      "since": "2026-10-28T23:18:51.802Z",
-      "lastCheck": "2026-10-28T23:18:51.802Z",
-      "lastMs": 812,
-      "lastHttp": 200,
-      "tlsDaysLeft": 67,
-      "uptime24h": 78.669,
-      "uptime7d": 90.888,
-      "uptime90d": 94.046,
+      "state": "down",
+      "since": "2026-10-29T02:29:47.587Z",
+      "lastCheck": "2026-10-29T02:29:47.587Z",
+      "lastMs": 10540,
+      "lastHttp": null,
+      "lastError": "UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: app.thehivez.com:443, timeout: 10000ms)",
+      "tlsDaysLeft": null,
+      "uptime24h": 77.951,
+      "uptime7d": 90.803,
+      "uptime90d": 94.079,
       "daily": [
-        { "date": "2026-07-31", "up": null },
         { "date": "2026-08-01", "up": null },
         { "date": "2026-08-02", "up": null },
         { "date": "2026-08-03", "up": null },
@@ -106,25 +106,27 @@
         { "date": "2026-10-25", "up": 92.564 },
         { "date": "2026-10-26", "up": 92.183 },
         { "date": "2026-10-27", "up": 89.22 },
-        { "date": "2026-10-28", "up": 77.714 }
-      ]
+        { "date": "2026-10-28", "up": 78.669 },
+        { "date": "2026-10-29", "up": 96.524 }
+      ],
+      "lastCommentAt": "2026-10-29T02:29:47.587Z"
     },
     {
       "id": "api",
       "name": "API",
       "group": "App",
       "url": "https://app.thehivez.com/api/health",
-      "state": "up",
-      "since": "2026-10-28T23:18:51.802Z",
-      "lastCheck": "2026-10-28T23:18:51.802Z",
-      "lastMs": 777,
-      "lastHttp": 200,
-      "tlsDaysLeft": 67,
-      "uptime24h": 78.669,
-      "uptime7d": 90.888,
-      "uptime90d": 94.046,
+      "state": "down",
+      "since": "2026-10-29T02:29:47.587Z",
+      "lastCheck": "2026-10-29T02:29:47.587Z",
+      "lastMs": 10498,
+      "lastHttp": null,
+      "lastError": "UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: app.thehivez.com:443, timeout: 10000ms)",
+      "tlsDaysLeft": null,
+      "uptime24h": 77.951,
+      "uptime7d": 90.803,
+      "uptime90d": 94.079,
       "daily": [
-        { "date": "2026-07-31", "up": null },
         { "date": "2026-08-01", "up": null },
         { "date": "2026-08-02", "up": null },
         { "date": "2026-08-03", "up": null },
@@ -213,25 +215,27 @@
         { "date": "2026-10-25", "up": 92.564 },
         { "date": "2026-10-26", "up": 92.183 },
         { "date": "2026-10-27", "up": 89.22 },
-        { "date": "2026-10-28", "up": 77.714 }
-      ]
+        { "date": "2026-10-28", "up": 78.669 },
+        { "date": "2026-10-29", "up": 96.524 }
+      ],
+      "lastCommentAt": "2026-10-29T02:29:47.587Z"
     },
     {
       "id": "livekit",
       "name": "Voice & video (LiveKit signaling)",
       "group": "Calls",
       "url": "https://app.thehivez.com/rtc/validate",
-      "state": "up",
-      "since": "2026-10-28T23:18:51.802Z",
-      "lastCheck": "2026-10-28T23:18:51.802Z",
-      "lastMs": 804,
-      "lastHttp": 401,
-      "tlsDaysLeft": 67,
-      "uptime24h": 78.669,
-      "uptime7d": 90.888,
-      "uptime90d": 94.046,
+      "state": "down",
+      "since": "2026-10-29T02:29:47.587Z",
+      "lastCheck": "2026-10-29T02:29:47.587Z",
+      "lastMs": 10497,
+      "lastHttp": null,
+      "lastError": "UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: app.thehivez.com:443, timeout: 10000ms)",
+      "tlsDaysLeft": null,
+      "uptime24h": 77.951,
+      "uptime7d": 90.803,
+      "uptime90d": 94.079,
       "daily": [
-        { "date": "2026-07-31", "up": null },
         { "date": "2026-08-01", "up": null },
         { "date": "2026-08-02", "up": null },
         { "date": "2026-08-03", "up": null },
@@ -320,24 +324,26 @@
         { "date": "2026-10-25", "up": 92.564 },
         { "date": "2026-10-26", "up": 92.183 },
         { "date": "2026-10-27", "up": 89.22 },
-        { "date": "2026-10-28", "up": 77.714 }
-      ]
+        { "date": "2026-10-28", "up": 78.669 },
+        { "date": "2026-10-29", "up": 96.524 }
+      ],
+      "lastCommentAt": "2026-10-29T02:29:47.587Z"
     },
     {
       "id": "website",
       "name": "Website",
       "url": "https://thehivez.com/",
-      "state": "up",
-      "since": "2026-10-28T23:18:51.802Z",
-      "lastCheck": "2026-10-28T23:18:51.802Z",
-      "lastMs": 1498,
-      "lastHttp": 200,
-      "tlsDaysLeft": 67,
-      "uptime24h": 78.669,
-      "uptime7d": 90.888,
-      "uptime90d": 94.046,
+      "state": "down",
+      "since": "2026-10-29T02:29:47.587Z",
+      "lastCheck": "2026-10-29T02:29:47.587Z",
+      "lastMs": 10495,
+      "lastHttp": null,
+      "lastError": "UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: thehivez.com:443, timeout: 10000ms)",
+      "tlsDaysLeft": null,
+      "uptime24h": 77.951,
+      "uptime7d": 90.803,
+      "uptime90d": 94.079,
       "daily": [
-        { "date": "2026-07-31", "up": null },
         { "date": "2026-08-01", "up": null },
         { "date": "2026-08-02", "up": null },
         { "date": "2026-08-03", "up": null },
@@ -426,8 +432,10 @@
         { "date": "2026-10-25", "up": 92.564 },
         { "date": "2026-10-26", "up": 92.183 },
         { "date": "2026-10-27", "up": 89.22 },
-        { "date": "2026-10-28", "up": 77.714 }
-      ]
+        { "date": "2026-10-28", "up": 78.669 },
+        { "date": "2026-10-29", "up": 96.524 }
+      ],
+      "lastCommentAt": "2026-10-29T02:29:47.587Z"
     }
   ]
 }
