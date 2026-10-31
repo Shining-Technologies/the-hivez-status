@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T21:27:51.008Z",
+  "generatedAt": "2026-10-31T00:56:07.617Z",
   "repo": "Shining-Technologies/the-hivez-status",
   "monitors": [
     {
@@ -9,15 +9,14 @@
       "url": "https://app.thehivez.com/",
       "state": "up",
       "since": "2026-10-29T08:46:40.498Z",
-      "lastCheck": "2026-10-30T21:27:46.863Z",
-      "lastMs": 864,
+      "lastCheck": "2026-10-31T00:56:03.734Z",
+      "lastMs": 803,
       "lastHttp": 200,
       "tlsDaysLeft": 65,
       "uptime24h": 100,
-      "uptime7d": 90.388,
-      "uptime90d": 93.593,
+      "uptime7d": 90.347,
+      "uptime90d": 93.655,
       "daily": [
-        { "date": "2026-08-02", "up": null },
         { "date": "2026-08-03", "up": null },
         { "date": "2026-08-04", "up": null },
         { "date": "2026-08-05", "up": null },
@@ -106,7 +105,8 @@
         { "date": "2026-10-27", "up": 89.22 },
         { "date": "2026-10-28", "up": 78.669 },
         { "date": "2026-10-29", "up": 79.042 },
-        { "date": "2026-10-30", "up": 100 }
+        { "date": "2026-10-30", "up": 100 },
+        { "date": "2026-10-31", "up": 100 }
       ]
     },
     {
@@ -116,15 +116,14 @@
       "url": "https://app.thehivez.com/api/health",
       "state": "up",
       "since": "2026-10-29T08:46:40.498Z",
-      "lastCheck": "2026-10-30T21:27:46.863Z",
-      "lastMs": 812,
+      "lastCheck": "2026-10-31T00:56:03.734Z",
+      "lastMs": 763,
       "lastHttp": 200,
       "tlsDaysLeft": 65,
       "uptime24h": 100,
-      "uptime7d": 90.388,
-      "uptime90d": 93.593,
+      "uptime7d": 90.347,
+      "uptime90d": 93.655,
       "daily": [
-        { "date": "2026-08-02", "up": null },
         { "date": "2026-08-03", "up": null },
         { "date": "2026-08-04", "up": null },
         { "date": "2026-08-05", "up": null },
@@ -213,7 +212,8 @@
         { "date": "2026-10-27", "up": 89.22 },
         { "date": "2026-10-28", "up": 78.669 },
         { "date": "2026-10-29", "up": 79.042 },
-        { "date": "2026-10-30", "up": 100 }
+        { "date": "2026-10-30", "up": 100 },
+        { "date": "2026-10-31", "up": 100 }
       ]
     },
     {
@@ -223,15 +223,14 @@
       "url": "https://app.thehivez.com/rtc/validate",
       "state": "up",
       "since": "2026-10-29T08:46:40.498Z",
-      "lastCheck": "2026-10-30T21:27:46.863Z",
-      "lastMs": 819,
+      "lastCheck": "2026-10-31T00:56:03.734Z",
+      "lastMs": 780,
       "lastHttp": 401,
       "tlsDaysLeft": 65,
       "uptime24h": 100,
-      "uptime7d": 90.388,
-      "uptime90d": 93.593,
+      "uptime7d": 90.347,
+      "uptime90d": 93.655,
       "daily": [
-        { "date": "2026-08-02", "up": null },
         { "date": "2026-08-03", "up": null },
         { "date": "2026-08-04", "up": null },
         { "date": "2026-08-05", "up": null },
@@ -320,7 +319,8 @@
         { "date": "2026-10-27", "up": 89.22 },
         { "date": "2026-10-28", "up": 78.669 },
         { "date": "2026-10-29", "up": 79.042 },
-        { "date": "2026-10-30", "up": 100 }
+        { "date": "2026-10-30", "up": 100 },
+        { "date": "2026-10-31", "up": 100 }
       ]
     },
     {
@@ -329,15 +329,14 @@
       "url": "https://thehivez.com/",
       "state": "up",
       "since": "2026-10-29T08:46:40.498Z",
-      "lastCheck": "2026-10-30T21:27:46.863Z",
-      "lastMs": 1645,
+      "lastCheck": "2026-10-31T00:56:03.734Z",
+      "lastMs": 1470,
       "lastHttp": 200,
       "tlsDaysLeft": 65,
       "uptime24h": 100,
-      "uptime7d": 90.388,
-      "uptime90d": 93.593,
+      "uptime7d": 90.347,
+      "uptime90d": 93.655,
       "daily": [
-        { "date": "2026-08-02", "up": null },
         { "date": "2026-08-03", "up": null },
         { "date": "2026-08-04", "up": null },
         { "date": "2026-08-05", "up": null },
@@ -426,7 +425,8 @@
         { "date": "2026-10-27", "up": 89.22 },
         { "date": "2026-10-28", "up": 78.669 },
         { "date": "2026-10-29", "up": 79.042 },
-        { "date": "2026-10-30", "up": 100 }
+        { "date": "2026-10-30", "up": 100 },
+        { "date": "2026-10-31", "up": 100 }
       ]
     }
   ]
