@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T22:45:44.376Z",
+  "generatedAt": "2026-11-05T02:50:06.578Z",
   "repo": "Shining-Technologies/the-hivez-status",
   "monitors": [
     {
@@ -9,15 +9,14 @@
       "url": "https://app.thehivez.com/",
       "state": "up",
       "since": "2026-10-29T08:46:40.498Z",
-      "lastCheck": "2026-11-04T22:45:39.913Z",
-      "lastMs": 804,
+      "lastCheck": "2026-11-05T02:50:02.529Z",
+      "lastMs": 986,
       "lastHttp": 200,
       "tlsDaysLeft": 60,
       "uptime24h": 100,
-      "uptime7d": 96.664,
-      "uptime90d": 94.68,
+      "uptime7d": 97.118,
+      "uptime90d": 94.723,
       "daily": [
-        { "date": "2026-08-07", "up": null },
         { "date": "2026-08-08", "up": null },
         { "date": "2026-08-09", "up": null },
         { "date": "2026-08-10", "up": null },
@@ -106,7 +105,8 @@
         { "date": "2026-11-01", "up": 100 },
         { "date": "2026-11-02", "up": 100 },
         { "date": "2026-11-03", "up": 100 },
-        { "date": "2026-11-04", "up": 100 }
+        { "date": "2026-11-04", "up": 100 },
+        { "date": "2026-11-05", "up": 100 }
       ]
     },
     {
@@ -116,15 +116,14 @@
       "url": "https://app.thehivez.com/api/health",
       "state": "up",
       "since": "2026-10-29T08:46:40.498Z",
-      "lastCheck": "2026-11-04T22:45:39.913Z",
-      "lastMs": 777,
+      "lastCheck": "2026-11-05T02:50:02.529Z",
+      "lastMs": 862,
       "lastHttp": 200,
       "tlsDaysLeft": 60,
       "uptime24h": 100,
-      "uptime7d": 96.664,
-      "uptime90d": 94.68,
+      "uptime7d": 97.118,
+      "uptime90d": 94.723,
       "daily": [
-        { "date": "2026-08-07", "up": null },
         { "date": "2026-08-08", "up": null },
         { "date": "2026-08-09", "up": null },
         { "date": "2026-08-10", "up": null },
@@ -213,7 +212,8 @@
         { "date": "2026-11-01", "up": 100 },
         { "date": "2026-11-02", "up": 100 },
         { "date": "2026-11-03", "up": 100 },
-        { "date": "2026-11-04", "up": 100 }
+        { "date": "2026-11-04", "up": 100 },
+        { "date": "2026-11-05", "up": 100 }
       ]
     },
     {
@@ -223,15 +223,14 @@
       "url": "https://app.thehivez.com/rtc/validate",
       "state": "up",
       "since": "2026-10-29T08:46:40.498Z",
-      "lastCheck": "2026-11-04T22:45:39.913Z",
-      "lastMs": 812,
+      "lastCheck": "2026-11-05T02:50:02.529Z",
+      "lastMs": 867,
       "lastHttp": 401,
       "tlsDaysLeft": 60,
       "uptime24h": 100,
-      "uptime7d": 96.664,
-      "uptime90d": 94.68,
+      "uptime7d": 97.118,
+      "uptime90d": 94.723,
       "daily": [
-        { "date": "2026-08-07", "up": null },
         { "date": "2026-08-08", "up": null },
         { "date": "2026-08-09", "up": null },
         { "date": "2026-08-10", "up": null },
@@ -320,7 +319,8 @@
         { "date": "2026-11-01", "up": 100 },
         { "date": "2026-11-02", "up": 100 },
         { "date": "2026-11-03", "up": 100 },
-        { "date": "2026-11-04", "up": 100 }
+        { "date": "2026-11-04", "up": 100 },
+        { "date": "2026-11-05", "up": 100 }
       ]
     },
     {
@@ -329,15 +329,14 @@
       "url": "https://thehivez.com/",
       "state": "up",
       "since": "2026-10-29T08:46:40.498Z",
-      "lastCheck": "2026-11-04T22:45:39.913Z",
-      "lastMs": 1509,
+      "lastCheck": "2026-11-05T02:50:02.529Z",
+      "lastMs": 1581,
       "lastHttp": 200,
       "tlsDaysLeft": 60,
       "uptime24h": 100,
-      "uptime7d": 96.664,
-      "uptime90d": 94.68,
+      "uptime7d": 97.118,
+      "uptime90d": 94.723,
       "daily": [
-        { "date": "2026-08-07", "up": null },
         { "date": "2026-08-08", "up": null },
         { "date": "2026-08-09", "up": null },
         { "date": "2026-08-10", "up": null },
@@ -426,7 +425,8 @@
         { "date": "2026-11-01", "up": 100 },
         { "date": "2026-11-02", "up": 100 },
         { "date": "2026-11-03", "up": 100 },
-        { "date": "2026-11-04", "up": 100 }
+        { "date": "2026-11-04", "up": 100 },
+        { "date": "2026-11-05", "up": 100 }
       ]
     }
   ]
